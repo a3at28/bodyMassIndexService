@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         BodeMassIndexService service = new BodeMassIndexService();
-        int bodyMassIndex = service.calculate(69.5,168.5);
+        double bodyMassIndex = service.calculate(69.6,168.6);
         System.out.println(bodyMassIndex);
 
 
